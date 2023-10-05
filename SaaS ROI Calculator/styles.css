@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: 'Arial', sans-serif;
+    background-color: #dce4ed;
+    margin: 50px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.containter{
+    background: white;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 800px;
+}
+
+.logo{
+    width: 150px;
+}
+
+h2{
+    padding-top: 25px;
+}
+
+.calculator{
+    text-align: center;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 750px;
+    background-color: white;
+}
+
+button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: white;
+    background-color: #101F2F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.manual{
+    text-align: justify;
+    color: gray
+}
+
+.input{
+    height: 50px;
+    width: 210px;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.business{
+    width: 100px;
+}
