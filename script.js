@@ -21,7 +21,8 @@ function calculateROI() {
     var totalMinutesSaved = (invoiceCount * avgMinutesSavedPerInvoice) + (costCount * avgMinutesSavedPerCost) + (employeeCount * avgMinutesSavedPerEmployee);
 
     // Now we need to calculate the cost saved. Let's assume the average cost per minute of an employee's time is €0.20
-    var costSaved = totalMinutesSaved * 0.20;
+    var labourCost = 0.4
+    var costSaved = totalMinutesSaved * labourCost;
 
     // Set the color based on whether ROI is negative or positive.
     
@@ -31,10 +32,11 @@ function calculateROI() {
     console.log(roi)
     console.log(color)
 
-    document.getElementById("costOfSoftware").innerHTML = `The cost of the software is: ${price} Euro`;
-    document.getElementById("savedTimeInvoices").innerHTML = `The time saved from invoices is: ${savedTimeInvoices.toFixed(2)} h`;
-    document.getElementById("savedTimeCosts").innerHTML = `The time saved from cost counts is: ${savedTimeCosts.toFixed(2)} h`;
-    document.getElementById("savedTimeEmployees").innerHTML = `The time saved per employee is: ${savedTimeEmployees.toFixed(2)} h`;
+    document.getElementById("costOfSoftware").innerHTML = `The cost of the software is: <b>${price} Euro</b>`;
+    document.getElementById("savedTimeInvoices").innerHTML = `The time saved from invoices is: <b>${savedTimeInvoices.toFixed(2)} h</b>`;
+    document.getElementById("savedTimeCosts").innerHTML = `The time saved from cost counts is: <b>${savedTimeCosts.toFixed(2)} h</b>`;
+    document.getElementById("labourCost").innerHTML = `ROI calculater using labour cost of: <b>${labourCost*60} Euro per hour</b>`;
+    document.getElementById("savedTimeEmployees").innerHTML = `The time saved per employee is: <b>${savedTimeEmployees.toFixed(2)} h</b>`;
 
     var roiElement = document.getElementById("result");
     roiElement.innerHTML = `The ROI is: ${roi.toFixed(2)}%`;
