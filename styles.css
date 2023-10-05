@@ -7,6 +7,10 @@ body{
     margin: 50px;
 }
 
+p{
+    color: #353f49
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -26,8 +30,13 @@ body{
     width: 150px;
 }
 
+h1{
+    color: #101F2F
+}
+
 h2{
     padding-top: 25px;
+    color: #101F2F
 }
 
 .calculator{
@@ -36,7 +45,7 @@ h2{
     padding: 20px;
     border-radius: 5px;
     max-width: 750px;
-    background-color: white;
+    background-color: rgb(245, 249, 251);
 }
 
 button{
@@ -65,7 +74,7 @@ button:hover{
     font-size: 16px;
     text-align: center;
     border-radius: 5px;
-    background-color: #101F2F;
+    background-color: #101f2f;
     color: white;
 }
 
