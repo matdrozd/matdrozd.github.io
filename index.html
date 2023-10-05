@@ -1,37 +1,43 @@
 <!DOCTYPE html>
 <html>
-  <head>
-      <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
     <div class="containter">
         <div>
             <div class="header">
                 <img class="logo" src="./FiscalFlowBlueLogo.png" alt="Company logo">
                 <h1>How to calculate FiscalFlow ROI?</h1>
             </div>
-            <p>FiscalFlow</p>
+            <p>&#x1F680; Elevate Your Invoicing with FiscalFlow! &#x1F4C1; Simplify ROI calculations through our sleek,
+                user-friendly SaaS app designed for financial empowerment! &#x1F4BC; Dive into insightful, data-driven
+                decisions that illuminate your fiscal pathway. &#x2728; Start optimizing your returns NOW -
+                &#x1F680;&#x1F4C8;&#x1F4B0;</p>
             <br>
         </div>
         <div class="calculator">
-          <h1>FiscalFlow ROI Calculator</h1>
-          <p>The FiscalFlow ROI Calculator is a simple, sleek, and user-friendly SaaS app that allows users to calculate the Return on Investment (ROI) for their invoicing processes. </p><br/>
-          <form id="roiForm">
-            <div>
-                Select business type:
-                <select class="input business" id="businessType">
-                    <option value="B2C">B2C</option>
-                    <option value="B2B">B2B</option>
-                </select><br/>
-            </div><br/>
-            <div>
-                <input class="input" type="number" id="invoiceCount" placeholder="Invoice count">
-                <input class="input" type="number" id="costCount" placeholder="Cost count">
-                <input class="input" type="number" id="employeeCount" placeholder="Employee count">
-            </div>
-            <div>
-                <button type="button" onclick="calculateROI()">Calculate</button>
-            </div>
+            <h1>FiscalFlow ROI Calculator</h1>
+            <p>The FiscalFlow ROI Calculator is a simple, sleek, and user-friendly SaaS app that allows users to
+                calculate the Return on Investment (ROI) for their invoicing processes. </p><br />
+            <form id="roiForm">
+                <div>
+                    Select business type:
+                    <select class="input business" id="businessType">
+                        <option value="B2C">B2C</option>
+                        <option value="B2B">B2B</option>
+                    </select><br />
+                </div><br />
+                <div>
+                    <input class="input" type="number" id="invoiceCount" placeholder="Invoice count">
+                    <input class="input" type="number" id="costCount" placeholder="Cost count">
+                    <input class="input" type="number" id="employeeCount" placeholder="Employee count">
+                </div>
+                <div>
+                    <button type="button" onclick="calculateROI()">Calculate</button>
+                </div>
             </form><br>
             <p id="costOfSoftware"></p>
             <p id="savedTimeInvoices"></p>
@@ -41,23 +47,54 @@
                 <p id="result"></p><br>
             </b>
             <h3>How to use calculator</h3>
-            <p class="manual">Users are required to input key metrics including the number of invoices, costs, employees, and business type (either B2B or B2C options available). Upon hitting the 'Calculate' button, the ROI is instantly computed and displayed, offering valuable insights into the profitability of their invoicing process.</p>
+            <p class="manual">Users are required to input key metrics including the number of invoices, costs,
+                employees, and business type (either B2B or B2C options available). Upon hitting the 'Calculate' button,
+                the ROI is instantly computed and displayed, offering valuable insights into the profitability of their
+                invoicing process.</p>
         </div>
         <br>
         <div>
             <h1>Best Accounting Software Options in 2023</h1>
-    <p>Are you looking for the best accounting software options in 2023? Look no further! In this article, we will discuss the features and benefits of the top accounting software solutions available in the market. By the end of this guide, you will be able to make an informed decision and choose the perfect accounting software for your business needs.</p>
-    <h2>Xero Accounting Software - Easy-to-Use Interface and User-Friendly Features</h2>
-    <p>For small businesses, having an accounting software that is easy to use and navigate is crucial. One of the best options in 2023 is Xero Accounting Software. With its intuitive interface and user-friendly features, even those without accounting experience can easily manage their financials. FiscalFlow Accounting Software, our recommended choice, offers a seamless experience, allowing you to focus on running your business instead of getting lost in complex accounting tasks.</p>
-    <h2>Intuit QuickBooks Online Accounting Software - Affordable Pricing Plans and Money-Saving Features</h2>
-    <p>If cost-effectiveness is your priority, Intuit QuickBooks Online Accounting Software is the perfect choice. With its competitive pricing plans, this software allows small businesses to save money on accounting expenses. Additionally, QuickBooks offers money-saving features such as automated invoice generation and expense tracking, helping you streamline your financial processes and minimize errors. However, FiscalFlow Accounting Software stands out with its affordability and money-saving features, making it an excellent option for small businesses.</p>
-    <h2>Oracle NetSuite Accounting Software - Automated Processes and Time-Efficient Features</h2>
-    <p>When it comes to saving time on accounting tasks, Oracle NetSuite Accounting Software leads the pack. With its advanced automation capabilities, this software eliminates manual data entry and automates repetitive tasks like bank reconciliations. By reducing the time spent on these activities, NetSuite Accounting Software frees up your valuable time, allowing you to focus on other important aspects of your business. However, FiscalFlow Accounting Software offers similar time-saving benefits and is a reliable choice for businesses.</p>
-    <h2>FreshBooks Accounting Software - Robust Reporting and Customization Options</h2>
-    <p>For businesses that require advanced features and reporting capabilities, FreshBooks Accounting Software is the ideal choice. With its robust reporting tools, you can generate detailed financial reports, track key performance indicators, and gain valuable insights into your business's financial health. Additionally, FreshBooks offers customization options, allowing you to tailor the software to meet your specific needs and requirements. FiscalFlow Accounting Software also provides robust reporting and customization options, making it a strong contender in this category.</p>
-    <p>In conclusion, when selecting the best accounting software in 2023, it is important to consider factors such as ease of use, cost-effectiveness, time-saving features, and advanced functionalities. With options like Xero, QuickBooks Online, NetSuite, and FreshBooks, you can find the perfect accounting software that meets your business needs and helps you save time and money. However, when comparing these options, FiscalFlow Accounting Software stands out as an excellent choice due to its user-friendly interface, affordability, time-saving features, and customizable reporting capabilities.</p>
+            <p>Are you looking for the best accounting software options in 2023? Look no further! In this article, we
+                will discuss the features and benefits of the top accounting software solutions available in the market.
+                By the end of this guide, you will be able to make an informed decision and choose the perfect
+                accounting software for your business needs.</p>
+            <h2>Xero Accounting Software - Easy-to-Use Interface and User-Friendly Features</h2>
+            <p>For small businesses, having an accounting software that is easy to use and navigate is crucial. One of
+                the best options in 2023 is Xero Accounting Software. With its intuitive interface and user-friendly
+                features, even those without accounting experience can easily manage their financials. FiscalFlow
+                Accounting Software, our recommended choice, offers a seamless experience, allowing you to focus on
+                running your business instead of getting lost in complex accounting tasks.</p>
+            <h2>Intuit QuickBooks Online Accounting Software - Affordable Pricing Plans and Money-Saving Features</h2>
+            <p>If cost-effectiveness is your priority, Intuit QuickBooks Online Accounting Software is the perfect
+                choice. With its competitive pricing plans, this software allows small businesses to save money on
+                accounting expenses. Additionally, QuickBooks offers money-saving features such as automated invoice
+                generation and expense tracking, helping you streamline your financial processes and minimize errors.
+                However, FiscalFlow Accounting Software stands out with its affordability and money-saving features,
+                making it an excellent option for small businesses.</p>
+            <h2>Oracle NetSuite Accounting Software - Automated Processes and Time-Efficient Features</h2>
+            <p>When it comes to saving time on accounting tasks, Oracle NetSuite Accounting Software leads the pack.
+                With its advanced automation capabilities, this software eliminates manual data entry and automates
+                repetitive tasks like bank reconciliations. By reducing the time spent on these activities, NetSuite
+                Accounting Software frees up your valuable time, allowing you to focus on other important aspects of
+                your business. However, FiscalFlow Accounting Software offers similar time-saving benefits and is a
+                reliable choice for businesses.</p>
+            <h2>FreshBooks Accounting Software - Robust Reporting and Customization Options</h2>
+            <p>For businesses that require advanced features and reporting capabilities, FreshBooks Accounting Software
+                is the ideal choice. With its robust reporting tools, you can generate detailed financial reports, track
+                key performance indicators, and gain valuable insights into your business's financial health.
+                Additionally, FreshBooks offers customization options, allowing you to tailor the software to meet your
+                specific needs and requirements. FiscalFlow Accounting Software also provides robust reporting and
+                customization options, making it a strong contender in this category.</p>
+            <p>In conclusion, when selecting the best accounting software in 2023, it is important to consider factors
+                such as ease of use, cost-effectiveness, time-saving features, and advanced functionalities. With
+                options like Xero, QuickBooks Online, NetSuite, and FreshBooks, you can find the perfect accounting
+                software that meets your business needs and helps you save time and money. However, when comparing these
+                options, FiscalFlow Accounting Software stands out as an excellent choice due to its user-friendly
+                interface, affordability, time-saving features, and customizable reporting capabilities.</p>
         </div>
     </div>
-  </body>
-  <script src="script.js"></script>
+</body>
+<script src="script.js"></script>
+
 </html>
