@@ -52,15 +52,16 @@ button{
     display: inline-block;
     padding: 10px 20px;
     margin-top: 20px;
+    width: 210px;
     color: white;
-    background-color: #101F2F;
+    background-color: rgb(255, 166, 0);
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
 button:hover{
-    background-color: #3970ab;
+    background-color: rgb(247, 194, 96);
 }
 
 .manual{
@@ -78,7 +79,16 @@ button:hover{
     color: white;
 }
 
+.roiForm{
+    /* background-color: orange; */
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    flex-direction: column;
+    width: 480px;
+}
+
 .business{
-    width: 100px;
+    width: 215px;
     height: 35px;
 }

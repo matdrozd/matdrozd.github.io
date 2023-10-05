@@ -22,7 +22,7 @@
             <h1>FiscalFlow ROI Calculator</h1>
             <p>The FiscalFlow ROI Calculator is a simple, sleek, and user-friendly SaaS app that allows users to
                 calculate the Return on Investment (ROI) for their invoicing processes. </p><br />
-            <form id="roiForm">
+            <form id="roiForm" class="roiForm">
                 <div>
                     Select business type:
                     <select class="input business" id="businessType">
@@ -31,9 +31,19 @@
                     </select><br />
                 </div><br />
                 <div>
-                    <input class="input" type="number" id="invoiceCount" placeholder="Invoice count">
-                    <input class="input" type="number" id="costCount" placeholder="Cost count">
-                    <input class="input" type="number" id="employeeCount" placeholder="Employee count">
+                    <label>Invoice count
+                        <input class="input" type="number" id="invoiceCount" placeholder="0">
+                    </label>
+                    </div>
+                    <div>
+                        <label>Cost count
+                            <input class="input" type="number" id="costCount" placeholder="0">
+                        </label>
+                    </div>
+                    <div>
+                    <label>Employee count
+                        <input class="input" type="number" id="employeeCount" placeholder="0">
+                    </label>
                 </div>
                 <div>
                     <button type="button" onclick="calculateROI()">Calculate</button>
