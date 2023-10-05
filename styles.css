@@ -8,7 +8,9 @@ body{
 }
 
 p{
-    color: #353f49
+    color: #353f49;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .header {
@@ -31,12 +33,16 @@ p{
 }
 
 h1{
-    color: #101F2F
+    color: #101F2F;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 h2{
     padding-top: 25px;
-    color: #101F2F
+    color: #101F2F;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .calculator{
